@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/IncomeTax/page2.html">Income Tax Calculator</a>
+        <a href="/Factorial/page3.html">Factorial</a>
+        <a href="/Payroll/page4.html">Simple Payroll</a>
+    </nav>
+<h1>Unit Converter</h1>
+
+<div class="converter">
+    <input type="number" id="Value" placeholder="Enter here!">
+    <select id="Unit">
+        <option value="FtoC">Fahrenheit to Celsius</option>
+        <option value="CtoF">Celsius to Fahrenheit</option>
+        <option value="MtoF">Meters to Feet</option>
+        <option value="FtoM">Feet to Meters</option>
+    </select>
+    <button onclick="convertUnit()">Convert</button>
+    <div class="result" id="Result"><h3>Results:</h3></div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>

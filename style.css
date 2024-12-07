@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ade8f4;
+}
+
+a {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    background-color: #48cae4;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    background-color: #45bed6;
+    width:205px;
+}
+
+header {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    border-radius: 50px;
+}

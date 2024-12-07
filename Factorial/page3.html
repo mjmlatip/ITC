@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial, Sum, and Average Calculator</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/Conversion/page1.html">Converter</a>
+        <a href="/IncomeTax/page2.html">Income Tax Calculator</a>
+        <a href="/Payroll/page4.html">Simple Payroll</a>
+    </nav>
+
+    <h1>Factorial, Sum, and Average <br> Calculator</h1>
+
+    <div class = converter>
+    <label for="numberInput">Enter an integer (n): </label>
+    <input type="number" id="numberInput" min="0" required>
+    <button onclick="calculate()">Calculate</button>
+
+    <div class = resultsbar>
+        <h3>Results:</h3>
+        <p id="factorialResult"></p>
+        <p id="sumResult"></p>
+        <p id="averageResult"></p>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
